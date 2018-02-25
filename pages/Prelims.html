@@ -54,6 +54,37 @@
         </p>
     </div>
 
+    <button class="accordion"><h5> Webpage, Website, Web Server, Search Engine</h5></button>
+    <div class="panel">
+        <section>
+            <h3>Webpage</h3>
+            <p>
+                A webpage is a document which is displayed in a web browser like Google Chrome, Firefox, Opera or Edge. A webpage is written in a markup language called HTML. Web pages can be access using addresses which you can place in your web browsers address bar
+            </p>
+         </section>
+
+        <section>
+            <h3>Website</h3>
+            <p>
+                This is simply a page which contains webpages. These webpages are then linked to each other using hyperlinks which allows users to move from one page to another.
+            </p>
+         </section>
+
+        <section>
+            <h3>Web Servers</h3>
+            <p>
+                A web server is a node or a computer that can host multiple websites. A web server sends web pages to users who access its website. All files that contains the content of a website is inside a webserver.
+            </p>
+         </section>
+
+         <section>
+            <h3>Search Engine</h3>
+            <p>
+               A search engine is a website used to browse and search for webpages and other websites. Some examples are Bing, Yahoo, Google and DuckDuckGo. These search engines enable users to query in the search engine and able to look contents in the web.
+            </p>
+         </section>        
+
+    </div> 
     <button class="accordion"><h5>Uniform Resource Locator (URL)</h5></button>
     <div class="panel">
         <p>URL contains unique name and it is also a unique content on the web. It can contain an html document, css document, videos, audio or even images, etc.
@@ -127,6 +158,69 @@
         </section>
 
     </div>
+
+    <button class="accordion">
+        <h5> Aboslute URL and Relative URL</h5>
+    </button>
+    <div class="panel">
+        <p>
+           To differentiate and understand what and absolute and relative URL is examples will be provided. 
+        </p>
+
+        <section>
+            <h3>Absolute URL</h3>
+            <p>
+             <pre>
+            Full URL
+            https://example.org/docs/topics
+            https://example.org/docs/topics/topic1
+            Implicit protocol
+            //example.org/docs/topics
+            Implicit domain name
+            //docs/topics
+             </pre>
+                 <br>   
+                This shows that absolute protocol fetches its resource from the root directory. Where you must specify the location of a resource which you want to access. You can also easily identify an absolute URL if it uses the “ / ” character.
+            </p>
+        </section>
+        <section>
+            <h3>
+                Relative URL
+            </h3>
+            <p>
+                <b>Example if this URL is entered https://example.org/docs/topics.</b>
+                <br>
+                Assuming you wanted to access a sub-resource located in /topic1/part1. You will not need to type in every directory to point to that resource. Using relative URL and because the URL does not start with the “ / ” character the browser will attempt to find the resource. So what we really wanted to locate is the address http://example.org/docs/topics/topic1/part1
+                
+            </p>
+        </section>
+    </div>
+    <button class="accordion">
+        <h5> Domain Names</h5>
+    </button>
+    <div class="panel">
+        <section>
+            <h3> What are Domain Names?</h3>
+            <p>
+                Domain names are human readable addresses in the web and domain names uses semantic URL in which users can easily remember a resource in the web. Users can access any website using IP address of a website but this will be hard for people to remember a lot IP addresses because IP a single IP address contains 32 bits for IPv4. (eg. 192.168.1.1)
+            </p>
+        </section>
+
+        <section>
+            <h3> Domain Name Structure</h3>
+            <img src="../images/Domain.png" alt="Domain_Name">
+        </section>
+
+        <section>
+            <h4>TLD (Top-Level Domain)</h4>
+            <p>TLD provides user information about what service does a website server (eg. .com, .org, .net, .ph, .us etc)</p>
+        </section>
+        <section>
+            <h4>Label (Component)</h4>
+            <p>This contains any letter or word and can be referred to as a Secondary-Level Domain</p>
+        </section>        
+    </div>
+
        
 	<h1 id = "title"> Hypertext Transfer Protocol </h1>
 	<button class="accordion"><h5>HTTP Versions</h5></button>
@@ -137,6 +231,7 @@
 	 		<li> HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 June 1999) </li>
         </ol>
     </div>
+    
 
     <button class="accordion"><h5>HTTP Fundamentals</h5></button>
     <div class="panel">
